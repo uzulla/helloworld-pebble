@@ -1,0 +1,20 @@
+# Pebble build files
+build/
+*.pbw
+
+# Python bytecode
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files
+.lock-waf*
