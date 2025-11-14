@@ -38,10 +38,11 @@ static void window_load(Window *window) {
   // TextLayerを作成します
   // GRect(x, y, width, height)で位置とサイズを指定
   // - x=0: 左端から開始
-  // - y=55: 上から55ピクセルの位置（画面中央付近）
+  // - y=(bounds.size.h - 50) / 2: 画面の高さから50を引いて2で割り、垂直方向に中央配置
+  //   この計算により、異なるPebbleモデル（Aplite/Basalt/Chalk）で正しく中央に配置されます
   // - width=bounds.size.w: ウィンドウの幅全体
   // - height=50: テキストレイヤーの高さ50ピクセル
-  text_layer = text_layer_create(GRect(0, 55, bounds.size.w, 50));
+  text_layer = text_layer_create(GRect(0, (bounds.size.h - 50) / 2, bounds.size.w, 50));
 
   // TextLayerに表示するテキストを設定
   // このテキストはメモリに保持する必要があります（文字列リテラルなので自動的に保持されます）
