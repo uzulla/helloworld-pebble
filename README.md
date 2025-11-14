@@ -21,7 +21,7 @@ helloworld-pebble/
 ## 必要な環境
 
 - Pebble SDK 3.x
-- Python 2.7 (Pebble SDKのビルドシステムで使用)
+- Python 3.10+ (Pebble SDKのビルドシステムで使用)
 
 ## ビルド方法
 
