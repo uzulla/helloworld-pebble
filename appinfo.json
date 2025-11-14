@@ -4,7 +4,7 @@
   "longName": "Hello World",
   "companyName": "uzulla",
   "versionLabel": "1.0",
-  "sdkVersion": "3",
+  "sdkVersion": "3.14",
   "enableMultiJS": false,
   "targetPlatforms": ["aplite", "basalt", "chalk"],
   "watchapp": {

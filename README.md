@@ -8,7 +8,7 @@ Pebbleスマートウォッチ用のシンプルなHello Worldアプリケーシ
 
 ## プロジェクト構成
 
-```
+```text
 helloworld-pebble/
 ├── appinfo.json          # アプリケーションのメタデータ
 ├── package.json          # プロジェクト設定
